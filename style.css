@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+    font-family: 微軟正黑體;
+    /* border: solid 1px #666; */
+}
+
+body {
+    height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+nav.navbar {
+    transition: 0.5s;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+    background-color: transparent;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+    color: white;
+    transition: 0.5s;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+    color: #ff6e3a;
+}
+
+header.jumbotron {
+    text-align: center;
+    background-image: url(iamges/shop-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+header.jumbotron .container {
+    color: white;
+    padding: 200px 0px;
+}
+header.jumbotron hr {
+    max-width: 50px;
+    border: solid 2px white;
+}
+header.jumbotron h4 {
+    color: white
+    font-weight: normal;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+section#section_ask {
+    background-color: white;
+}
+section#section_ask .col-sm-5.img {
+    background-image: url(iamges/coffee1.jpg);
+    background-size: cover;
+    height: 350px;
+    
+}
+section#section_ask h2 {
+    margin-top: 130px;
+    padding: 0px 20px;
+}
+
+section#section_about img {
+    width: 130%;
+}
+section#section_about .img_wrap {
+    height: 220px;
+    overflow: hidden;
+}
+
+section#section_story {
+    background-color: #222;
+    color: white;
+    padding: 0;
+}
+section#section_story .col-sm-5 {
+    background-image: url(iamges/coffee5.png);
+    background-size: 100% auto;
+    height: 400px;
+}
+/* section#section_story .col-sm-5 .cross {
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+} */
+section#section_story .col-sm-7 {
+    text-align: center;
+}
+section#section_story .col-sm-7 i {
+    font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* section#section_future img {
+    width: 100%;
+    
+} */
+/* section#section_future i {
+    font-size: 30px;
+}
+section#section_future .feature {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+section#section_future .col-md-5.made {
+    height: 500px;
+    background-image: url(iamges/coffee6.jpg);
+    background-size: cover;
+    
+}
+section#section_future .col-md-7 {
+    padding-left: 30px;
+}
+section#section_future .col-md-7 i {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+
+
+footer.jumbotron {
+    text-align: center;
+    background-image: url(iamges/shop-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+footer.jumbotron input {
+    background-color: transparent;
+    max-width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer.jumbotron .container {
+    color: white;
+    padding: 60px 0px;
+}
+footer.jumbotron hr {
+    max-width: 50px;
+    border: solid 2px white;
+}
